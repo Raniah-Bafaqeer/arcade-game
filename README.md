@@ -6,6 +6,8 @@ Classic Arcade Game Clone
 
 In this game,  you have a Player and Enemies (bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. 
 
+## Play the game 
+click on the link: [ https://raniah-bafaqeer.github.io/arcade-game/]
 ## Browsers & Devices
 
 All content is responsive and display on Google Chrome, Fire Fox and all display devices sizes, includes:

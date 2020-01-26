@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <title>Effective JavaScript: Frogger</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <div class="container pt-3">
+
+      <header>
+          <h1> Classic Arcade Game Clone</h1>
+      </header>
+
+      <!-- Score Panel contains : scores , Timer and collected symbols  -->      
+      <section class="score-panel">
+
+        <div id="score-main"> 
+          Scores: <span class="score">0 </span> 
+        </div>
+
+        <div id="symbol-main">
+          Symbols: <span class="symbol">0 </span>
+        </div>
+
+        <div id="timer-main">
+          Timer: <span class="timer"> 0 : 0 : 0</span> 
+        </div> 
+
+      </section>
+
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <button type="button" class="close" data-dismiss="modal" >  &times;</button>
+              <img src="images/success.gif" alt="success check">
+              <p id="result"> </p>
+            </div>
+
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+
+  </body>
+</html>
